@@ -6,7 +6,7 @@ public interface Graph<T> {
     boolean hasVertex(T v);
     List<T> getVertexes();
 
-    void addEdge(T v, T w);
+    void addEdge(T v, T w, int cost);
     void removeEdge(T v, T w);
     boolean hasEdge(T v, T w);
 
